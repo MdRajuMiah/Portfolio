@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.send{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/send.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.send p{
+    background: #be1bb1;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 45%;
+    border-top: 50%;
+    font-size: 21px;
+    
+}
+.send p:hover{
+    box-shadow: 0 0 40px 0 rgba(247, 244, 244, 0.3);
+}
+.text img{
+    
+    height: 220px;
+    margin-left: 62%;
+    padding: 30px;
+    border-radius: 60px;
+    
+}

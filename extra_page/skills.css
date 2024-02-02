@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+button{
+    margin-left: 95%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/*---My skill section----*/
+.skills{
+    width: 80%;
+    margin: auto;
+    background: rgb(212, 106, 106);
+    padding-top: 10px;
+    margin-top: 70px;
+    padding: 20px 20px;
+}
+.skills h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(10, 255, 39);
+    background-image: linear-gradient(43deg,#0b1e30 0%, #22969e 64%, #99680c 100%);
+}
+.skills-col{
+    flex-basis: 45%;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+.skills-col h2{
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 12px;
+}
+.skills-col p{
+    color: #3b36c2;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 12px;
+    text-align: left;
+    justify-content: center;
+}
+.skills-col li{
+    list-style-type: none;
+    margin-top: 20px 0;
+}
+.skills-col .bar{
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #D4DEF2;
+}
+.skills-col .bar span{
+    height: 20px;
+    float: left;
+    background: rgb(236, 213, 6);
+}
+.HTML{
+    width: 80%;
+    animation: HTML 2s;
+}
+.CSS{
+    width: 60%;
+    animation: CSS 2s;
+}
+.jQuery{
+    width: 50%;
+    animation: jQuery 2s;
+}
+.javascript{
+    width: 70%;
+    animation: javascript 2s;
+}
+@media(max-width: 700px){
+    button{
+        display: block;
+        margin: 10px;
+        text-decoration: none;
+    }
+}
+
+@keyframes HTML{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes CSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes jQuery{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+    button{
+        display: block;
+        margin: 10px;
+        text-decoration: none;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+    
+}
